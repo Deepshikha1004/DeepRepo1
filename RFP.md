@@ -64,6 +64,7 @@ TechNova Solutions is an innovative IT services company focused on building scal
 | **Documentation**          | Diagrams, configs, hardware inventory, IP addressing plans                  |
 | **Training & Support**     | Admin training sessions and user manuals                                   |
 | **Support Plan**           | 12-month SLA-based technical support with option to extend                  |
+| **Cost Report**            | Full breakdown of hardware, labor, licensing, and annual support costs      |
 
 ---
 
@@ -129,4 +130,8 @@ TechNova Solutions is an innovative IT services company focused on building scal
 
 ---
 
-We look forward to working with a committed vendor who values performance, security, and customer satisfaction. Thank you for your interest in supporting TechNova Solutions' wireless infrastructure initiative.
+We look forward to working with a committed vendor who values performance, security, and customer satisfaction. Thank you for your interest in supporting TechNova Solutions' wireless infrastructure initiative.   
+
+Wishing you all the best,    
+
+**Technovasolutions CEO**
