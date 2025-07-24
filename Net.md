@@ -45,7 +45,8 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 
 ### Logical Topology Diagram
 
-<img width="728" height="461" alt="image" src="https://github.com/user-attachments/assets/9d03ab8a-d6cd-4bfe-b413-5398235cf704" />
+<img width="729" height="463" alt="image" src="https://github.com/user-attachments/assets/f7336e3f-41f9-4b51-9636-a7c0a4d002f3" />
+
 
 
 ---
@@ -56,11 +57,11 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 |----------------|--------------------|------------------|--------------|------------|-------------|----------------------|
 | Router         | `00:11:22:33:44:55`| `192.168.83.1`    | router       | LAN        | Static      | Gateway + DHCP/DNS   |
 | Desktop PC     | `11:22:33:44:55:66`| `192.168.83.100`  |   PC    | Ethernet   | Static      | Used for work        |
-| Laptop HP       | `AA:BB:CC:DD:EE:FF`| `192.168.83.101`  | HP            | Wi-Fi      | DHCP        |Home use       |
-|  Laptop Lenovo  | `66:77:88:99:AA:BB`| `192.168.83.102`  | Lenovo     | Wi-Fi   | DHCP              | Personal Use  |
-| TV             | `77:88:99:AA:BB:CC`| `192.168.83.103`  | tv-living    | Wi-Fi      | DHCP        | Streaming Services   |
-| Samsung S21    | `88:99:AA:BB:CC:DD`| `192.168.83.104`  | S21       | Wi-Fi      | DHCP        | Personal phone       |
-| Iphone 14        | `88:99:AB:BB:CC:AE` | `192.168.83.105`   |  IPhone14 | Wi-Fi       | DHCP      |  Personal phone    |
+| Laptop HP       | `AA:BB:CC:DD:EE:FF`| DHCP  | HP            | Wi-Fi      | DHCP        |Home use       |
+|  Laptop Lenovo  | `66:77:88:99:AA:BB`| DHCP  | Lenovo     | Wi-Fi   | DHCP              | Personal Use  |
+| TV             | `77:88:99:AA:BB:CC`| DHCP  | tv-living    | Wi-Fi      | DHCP        | Streaming Services   |
+| Samsung S21    | `88:99:AA:BB:CC:DD`| DHCP  | S21       | Wi-Fi      | DHCP        | Personal phone       |
+| Iphone 14        | `88:99:AB:BB:CC:AE` | DHCP   |  IPhone14 | Wi-Fi       | DHCP      |  Personal phone    |
 
 ---
 
