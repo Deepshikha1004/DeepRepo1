@@ -45,8 +45,7 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 
 ### Logical Topology Diagram
 
-<img width="741" height="468" alt="image" src="https://github.com/user-attachments/assets/f8c60b96-b932-4a5a-900c-fbfcd09f9a14" />
-
+<img width="728" height="461" alt="image" src="https://github.com/user-attachments/assets/9d03ab8a-d6cd-4bfe-b413-5398235cf704" />
 
 
 ---
