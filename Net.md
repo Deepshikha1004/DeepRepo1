@@ -53,15 +53,15 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 
 ## 3.  Addressing Documentation
 
-| Device         | MAC Address        | IP Address | Hostname | Connection | Assigned By |
-|----------------|--------------------|------------|----------|------------|-------------|
+| Device     | MAC Address        | IP Address | Hostname | Connection | Assigned|
+|------------|--------------------|------------|----------|------------|-------------|
 | Router         | `00:11:22:33:44:55`| `192.168.83.1`    | router       | LAN        | Static      | 
 | Desktop PC     | `11:22:33:44:55:66`| `192.168.83.100`  |   PC    | Ethernet   | Static      |
-| Laptop HP       | `AA:BB:CC:DD:EE:FF`| DHCP  | HP            | Wi-Fi      | DHCP        |
-|  Laptop Lenovo  | `66:77:88:99:AA:BB`| DHCP  | Lenovo     | Wi-Fi   | DHCP              |
-| TV             | `77:88:99:AA:BB:CC`| DHCP  | tv-living    | Wi-Fi      | DHCP        |
-| Samsung S21    | `88:99:AA:BB:CC:DD`| DHCP  | S21       | Wi-Fi      | DHCP        | 
-| Iphone 14        | `88:99:AB:BB:CC:AE` | DHCP   |  IPhone14 | Wi-Fi       | DHCP      | 
+| Laptop HP       | `AA:BB:CC:DD:EE:FF`| DHCP  | HP            | Wi-Fi      | Dynamic        |
+|  Laptop Lenovo  | `66:77:88:99:AA:BB`| DHCP  | Lenovo     | Wi-Fi   | Dynamic             |
+| TV             | `77:88:99:AA:BB:CC`| DHCP  | tv-living    | Wi-Fi      | Dynamic        |
+| Samsung S21    | `88:99:AA:BB:CC:DD`| DHCP  | S21       | Wi-Fi      | Dynamic        | 
+| Iphone 14        | `88:99:AB:BB:CC:AE` | DHCP   |  IPhone14 | Wi-Fi       | Dynamic      | 
 
 ---
 
