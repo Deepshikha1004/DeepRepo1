@@ -11,7 +11,7 @@ My home network span includes both wired and wireless connections. The **Shaw ro
 ### Device Placement (by Location)
 
 - **Living Room**  
-  - Wireless Router (connected to ISP)
+  - Router (connected to ISP)
   - Laptop (Wi-Fi)
   - TV (Wi-Fi)
   - Tablet (Wi-Fi)
@@ -23,7 +23,7 @@ My home network span includes both wired and wireless connections. The **Shaw ro
   - Laptop (Wi-Fi)
   - Smartphone (Wi-Fi)
 
-### 🖼️ Physical Topology Diagram
+### Physical Topology Diagram
 
 <img width="851" height="471" alt="image" src="https://github.com/user-attachments/assets/c622a1c8-edaa-4e4a-a4b2-a66304820c25" />
 
@@ -38,31 +38,29 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 ### Network Design Highlights
 
 - **Router IP:** 192.168.83.1 (Default Gateway + DNS)
-- **Subnet:** 255.255.255.0 (`/24`)
+- **Subnet:** 255.255.255.0 
 - **DHCP Range:** 192.168.83.100 – 192.168.83.200
 - **SSID:** HSNET (WPA3 secured)
 
 
-### 🖼️ Logical Topology Diagram
+### Logical Topology Diagram
 
-_Illustrates routing, addressing, and logical links between all devices._
 
-![Logical Topology Diagram](uploads/logical_topology.png)
 
 
 ---
 
-## 3. 🧾 Addressing Documentation
+## 3.  Addressing Documentation
 
 | Device         | MAC Address        | IP Address       | Hostname     | Connection | Assigned By | Notes               |
 |----------------|--------------------|------------------|--------------|------------|-------------|----------------------|
-| Router         | `00:11:22:33:44:55`| `192.168.1.1`    | router       | LAN        | Static      | Gateway + DHCP/DNS   |
-| Desktop PC     | `11:22:33:44:55:66`| `192.168.1.100`  | pc-living    | Ethernet   | Static      | Used for work        |
-| Laptop         | `AA:BB:CC:DD:EE:FF`| `192.168.1.101`  | laptop-room  | Wi-Fi      | DHCP        | Student device       |
-|        | `66:77:88:99:AA:BB`| `192.168.1.102`  | printer      | Ethernet   | Static      | Accessible over LAN  |
-| TV             | `77:88:99:AA:BB:CC`| `192.168.1.103`  | tv-living    | Wi-Fi      | DHCP        | Streaming services   |
-| Smartphone     | `88:99:AA:BB:CC:DD`| `192.168.1.104`  | phone1       | Wi-Fi      | DHCP        | Personal phone       |
-
+| Router         | `00:11:22:33:44:55`| `192.168.83.1`    | router       | LAN        | Static      | Gateway + DHCP/DNS   |
+| Desktop PC     | `11:22:33:44:55:66`| `192.168.83.100`  | pc-living    | Ethernet   | Static      | Used for work        |
+| Laptop HP       | `AA:BB:CC:DD:EE:FF`| `192.168.83.101`  | HP            | Wi-Fi      | DHCP        | Student device       |
+|  Laptop Lenovo  | `66:77:88:99:AA:BB`| `192.168.83.102`  | Lenovo     | Wi-Fi   | DHCP              | Personal Use  |
+| TV             | `77:88:99:AA:BB:CC`| `192.168.83.103`  | tv-living    | Wi-Fi      | DHCP        | Streaming Services   |
+| Samsung S21    | `88:99:AA:BB:CC:DD`| `192.168.83.104`  | S21       | Wi-Fi      | DHCP        | Personal phone       |
+| Iphone 14        | `88:99:AB:BB:CC:AE` | `192.168.83.105`   |  IPhone14 | Wi-Fi       | DHCP      |  Personal phone    |
 
 ---
 
@@ -81,17 +79,11 @@ _Illustrates routing, addressing, and logical links between all devices._
 
 ### Desktop PC (Static IP)
 
-- IP: `192.168.1.100`
+- IP: `192.168.83.100`
 - Subnet: `/24`
-- Gateway: `192.168.1.1`
-- DNS: `192.168.1.1`
+- Gateway: `192.168.83.1`
+- DNS: `192.168.83.1`
 - Windows Firewall: Enabled
-
-### Printer (Static IP)
-
-- IP: `192.168.1.102`
-- Network Discovery: Enabled
-- Hostname-based Printing: Enabled
 
 
 ---
