@@ -45,6 +45,7 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 
 ### Logical Topology Diagram
 
+<img width="741" height="468" alt="image" src="https://github.com/user-attachments/assets/f8c60b96-b932-4a5a-900c-fbfcd09f9a14" />
 
 
 
@@ -55,8 +56,8 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 | Device         | MAC Address        | IP Address       | Hostname     | Connection | Assigned By | Notes               |
 |----------------|--------------------|------------------|--------------|------------|-------------|----------------------|
 | Router         | `00:11:22:33:44:55`| `192.168.83.1`    | router       | LAN        | Static      | Gateway + DHCP/DNS   |
-| Desktop PC     | `11:22:33:44:55:66`| `192.168.83.100`  | pc-living    | Ethernet   | Static      | Used for work        |
-| Laptop HP       | `AA:BB:CC:DD:EE:FF`| `192.168.83.101`  | HP            | Wi-Fi      | DHCP        | Student device       |
+| Desktop PC     | `11:22:33:44:55:66`| `192.168.83.100`  |   PC    | Ethernet   | Static      | Used for work        |
+| Laptop HP       | `AA:BB:CC:DD:EE:FF`| `192.168.83.101`  | HP            | Wi-Fi      | DHCP        |Home use       |
 |  Laptop Lenovo  | `66:77:88:99:AA:BB`| `192.168.83.102`  | Lenovo     | Wi-Fi   | DHCP              | Personal Use  |
 | TV             | `77:88:99:AA:BB:CC`| `192.168.83.103`  | tv-living    | Wi-Fi      | DHCP        | Streaming Services   |
 | Samsung S21    | `88:99:AA:BB:CC:DD`| `192.168.83.104`  | S21       | Wi-Fi      | DHCP        | Personal phone       |
@@ -104,7 +105,7 @@ All login credentials are stored in **Bitwarden**, a secure and encrypted passwo
 
 ## ✅ Final Notes
 
-This network documentation outlines the **entire structure** and **configuration** of my home network in accordance with best practices. It includes visual topology diagrams, IP addressing, detailed configurations, and secure password storage — demonstrating a full understanding of both **physical** and **logical** network design.
+This network documentation outlines the **entire structure** and **configuration** of my home network in accordance with best practices. It includes visual topology diagrams, IP addressing, detailed configurations, and secure password storage - demonstrating a full understanding of both **physical** and **logical** network design.
 
 
 
