@@ -103,7 +103,7 @@ All login credentials are stored in **Bitwarden**, a secure and encrypted passwo
 
 ---
 
-## ✅ Final Notes
+## Summary
 
 This network documentation outlines the **entire structure** and **configuration** of my home network in accordance with best practices. It includes visual topology diagrams, IP addressing, detailed configurations, and secure password storage - demonstrating a full understanding of both **physical** and **logical** network design.
 
