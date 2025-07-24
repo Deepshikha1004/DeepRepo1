@@ -41,7 +41,7 @@ All devices are connected to a single **local network (LAN)** with subnet `192.1
 - **Subnet:** 255.255.255.0 (`/24`)
 - **DHCP Range:** 192.168.83.100 – 192.168.83.200
 - **SSID:** HSNET (WPA3 secured)
-- **No guest network configured**
+
 
 ### 🖼️ Logical Topology Diagram
 
